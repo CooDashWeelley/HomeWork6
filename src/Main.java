@@ -17,5 +17,9 @@ public class Main {
         for (byte c = 10; c >= -10; c --) {
             System.out.println(c);
         }
+        // task 5
+        for (short year = 1904; year < 2097; year += 4) {
+            System.out.println(year + " год является високосным.");
+        }
     }
 }
