@@ -35,5 +35,13 @@ public class Main {
             investment += 29000;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + investment + " рублей.");
         }
+        // task 9
+        int savings = 0;
+        int investment2 = 29000;
+        for (byte month = 1; month <= 12; month ++) {
+            savings = savings + savings / 100 * 12 / 12;
+            savings = savings + investment2;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings + " рублей.");
+        }
     }
 }
