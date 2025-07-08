@@ -13,5 +13,9 @@ public class Main {
         for (byte b = 2; b <= 17; b += 2) {
             System.out.println(b);
         }
+        // task 4
+        for (byte c = 10; c >= -10; c --) {
+            System.out.println(c);
+        }
     }
 }
