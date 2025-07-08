@@ -9,5 +9,9 @@ public class Main {
         for (byte a = 10; a >= 1; a --) {
             System.out.println(a);
         }
+        // task 3
+        for (byte b = 2; b <= 17; b += 2) {
+            System.out.println(b);
+        }
     }
 }
