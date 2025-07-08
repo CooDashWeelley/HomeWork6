@@ -21,5 +21,9 @@ public class Main {
         for (short year = 1904; year < 2097; year += 4) {
             System.out.println(year + " год является високосным.");
         }
+        // task 6
+        for (byte eachSeven = 7; eachSeven < 100; eachSeven += 7) {
+            System.out.println(eachSeven);
+        }
     }
 }
