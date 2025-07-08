@@ -25,5 +25,9 @@ public class Main {
         for (byte eachSeven = 7; eachSeven < 100; eachSeven += 7) {
             System.out.println(eachSeven);
         }
+        // task 7
+        for (short onTwo = 1; onTwo < 520; onTwo *= 2) {
+            System.out.println(onTwo);
+        }
     }
 }
