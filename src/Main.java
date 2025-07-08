@@ -29,5 +29,11 @@ public class Main {
         for (short onTwo = 1; onTwo < 520; onTwo *= 2) {
             System.out.println(onTwo);
         }
+        // task 8
+        int investment = 0;
+        for (byte month = 1; month <= 12; month ++) {
+            investment += 29000;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + investment + " рублей.");
+        }
     }
 }
